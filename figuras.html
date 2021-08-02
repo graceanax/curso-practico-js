@@ -8,22 +8,32 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>
+  <header class="header">
+    <h1 class="title">
       Figuras geométricas
     </h1>
-    <p>Primer taller del curso básico de JS</p>
   </header>
-  <section>
-    <h2>Calcula el área y perímetro de un cuadrado</h2>
-    <form>
-      <label for="InputCuadrado">Cuánto mide cada lado de tu cuadrado:</label>
-      <input id="InputCuadrado" type="number">
-      <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
-      <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
-
-    </form>
-  </section>
+  <main class="main">
+    <!-- Cálculo de cuadrado -->
+    <section class="figure">
+      <h2 class="title figure__title">Cuadrado</h2>
+      <section class="card">
+        <div class="figure__number">0</div>
+        <form class="form">
+          <label for="InputCuadrado" class="figure__label">Cuánto mide cada lado de tu cuadrado:</label>
+          <input id="InputCuadrado" type="number" placeholder="Ingresar número" class="figure__input">
+          <label class="figure__label">Calcular</label>
+          <button type="button" onclick="calcularPerimetroCuadrado()" class="btn">Prímetro</button>
+          <button type="button" onclick="calcularAreaCuadrado()" class="btn">Área</button>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="credits">
+      <a href="https://graceana.com" target="_blank">@graceanax</a> - <script>document.write(new Date().getFullYear())</script>
+    </div>
+  </footer>
   <script src="./figuras.js"></script>
 </body>
 </html>
