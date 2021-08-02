@@ -1,0 +1,16 @@
+:root {
+  --primary-color:#0D2137;
+  --secondary-color:#E0EAF5;
+  --background-color:#FAFAFA;
+  --gray-color:#F4F4F4;
+  --hover-color:#FF8E2B;
+  --white-color:#FFF;
+  --font-title: Montserrat;
+  --font-paragraph: Lato;
+  --font-numbers: Geneva;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
