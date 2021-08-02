@@ -8,6 +8,9 @@
   --font-title: Montserrat;
   --font-paragraph: Lato;
   --font-numbers: Geneva;
+  background-color: var(--secondary-color);
+  font-family: var(--font-paragraph);
+  font-size: 18px;
 }
 *,
 *::before,
