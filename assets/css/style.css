@@ -26,3 +26,21 @@
   border: 1px solid var(--gray-color);
   box-shadow: 0 0 16px var(--gray-color);
 }
+.figure__btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: 0;
+  padding: 1rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--hover-color);
+}
