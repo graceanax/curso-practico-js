@@ -17,3 +17,12 @@
 *::after {
   box-sizing: border-box;
 }
+
+.card {
+  background-color: var(--white-color);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: .3rem;
+  border: 1px solid var(--gray-color);
+  box-shadow: 0 0 16px var(--gray-color);
+}
