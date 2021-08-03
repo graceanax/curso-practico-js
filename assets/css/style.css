@@ -30,7 +30,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  margin-top: 1rem;
 }
 .btn {
   background-color: var(--primary-color);
@@ -44,6 +43,11 @@
 .btn:hover {
   background-color: var(--hover-color);
 }
+.label {
+  font-size: .8rem;
+  display: block;
+  margin: 1rem 0 .5rem 0;
+}
 .input {
   background-color: var(--secondary-color);
   border: 1px solid var(--gray-color);
@@ -51,4 +55,7 @@
   padding: 1rem .5rem;
   width: 100%;
   border-radius: .3rem;
+}
+.figure__number {
+  font-size: 2rem;
 }
