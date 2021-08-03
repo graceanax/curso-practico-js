@@ -71,3 +71,14 @@
 .figure__number {
   font-size: 2rem;
 }
+.footer {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: .3s;
+}
+.link:hover {
+  color: var(--hover-color);
+}
