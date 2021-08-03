@@ -17,7 +17,15 @@
 *::after {
   box-sizing: border-box;
 }
-
+.main, .header, .footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .card {
   background-color: var(--white-color);
   padding: 1rem;
@@ -55,6 +63,10 @@
   padding: 1rem .5rem;
   width: 100%;
   border-radius: .3rem;
+}
+.figure__title {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 .figure__number {
   font-size: 2rem;
