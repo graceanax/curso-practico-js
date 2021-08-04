@@ -9,14 +9,26 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="title header__title">
-      Descuentos
+    <h1 class="title">
+      Porcentajes y descuentos
     </h1>
   </header>
   <main class="main">
     <!-- Cálculo de descuentos -->
-    <section class="card">
-
+    <section>
+        <h2 class="subtitle">Calcula el precio a pagar con descuento</h2>
+        <section class="card">
+            <form class="form">
+              <label for="InputPrice" class="label">Precio original: </label>
+              <input id="InputPrice" type="number" placeholder="Ingresar número" class="input">
+              <label for="InputDiscount" class="label">Porcentaje de descuento:</label>
+              <input id="InputDiscount" type="number" placeholder="Ingresar número" class="input">
+              <label class="label">Calcular:</label>
+              <div class="figure__btn">
+                <button type="button" onclick="obtenerPrecioConDescuento()" class="btn">Calculr precio con descuento</button>
+              </div>
+            </form>
+          </section>
     </section>
   </main>
   <footer class="footer">
