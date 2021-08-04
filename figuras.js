@@ -1,3 +1,4 @@
+const resultTagCuadrado = document.getElementById("ResultCuadrado");
 // perímetro cuadrado
 function perimetroCuadrado(lado) {
   return lado * 4;
@@ -28,16 +29,16 @@ function areaCirculo (radio) {
  return (radio*radio) * Math.PI;
 }
 
-// Interactuando con HTML
+// Interactuando con HTML Cuadrado
 function calcularPerimetroCuadrado () {
   const input = document.getElementById("InputCuadrado");
   const value = input.value;
   const perimetro = perimetroCuadrado(value);
-  alert(perimetro);
+  resultTagCuadrado.innerHTML = perimetro;
 }
 function calcularAreaCuadrado () {
   const input = document.getElementById("InputCuadrado");
   const value = input.value;
   const area = areaCuadrado(value);
-  alert(area);
+  resultTagCuadrado.innerHTML = area;
 }
