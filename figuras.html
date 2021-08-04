@@ -46,6 +46,28 @@
         </form>
       </section>
     </section>
+    <!-- Cálculo de círculo -->
+    <section class="figure">
+      <h2 class="title figure__title">Tríangulo</h2>
+      <section class="card">
+        <div class="figure__number" id="ResultTriangulo">0</div>
+        <form class="form">
+          <label for="InputTrianguloBase" class="label">Cuánto mide la base:</label>
+          <input id="InputTrianguloBase" type="number" placeholder="Ingresar número" class="input">
+          <label for="InputTrianguloAltura" class="label">Cuánto mide la altura:</label>
+          <input id="InputTrianguloAltura" type="number" placeholder="Ingresar número" class="input">
+          <label for="InputTrianguloLado1" class="label">Cuánto mide el lado 1:</label>
+          <input id="InputTrianguloLado1" type="number" placeholder="Ingresar número" class="input">
+          <label for="InputTrianguloLado2" class="label">Cuánto mide el lado 2:</label>
+          <input id="InputTrianguloLado2" type="number" placeholder="Ingresar número" class="input">
+          <label class="label">Calcular:</label>
+          <div class="figure__btn">
+            <button type="button" onclick="calcularPerimetroTriangulo()" class="btn">Prímetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()" class="btn">Área</button>
+          </div>
+        </form>
+      </section>
+    </section>
   </main>
   <footer class="footer">
     <div class="credits">
