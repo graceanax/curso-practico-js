@@ -74,5 +74,5 @@ function calcularAreaTriangulo() {
   const valueBase = inputBase.value;
   const valueAltura = inputAltura.value;
   const area = areaTriangulo(valueBase, valueAltura);
-  resultTagTriangulo.innerHTML = area.toFixed(2);
+  resultTagTriangulo.innerText = area.toFixed(2);
 }
