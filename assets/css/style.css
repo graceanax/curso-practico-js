@@ -22,7 +22,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.header__title {
+.title {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -34,10 +34,15 @@
   border: 1px solid var(--gray-color);
   box-shadow: 0 0 16px var(--gray-color);
 }
-.figure__btn {
+.card__btn {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+}
+.btn-1 {
+  grid-template-columns: 1fr;
+}
+.btn-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 .btn {
   background-color: var(--primary-color);
@@ -64,7 +69,7 @@
   width: 100%;
   border-radius: .3rem;
 }
-.figure__title {
+.subtitle {
   font-size: 1.2rem;
   font-weight: 300;
 }
