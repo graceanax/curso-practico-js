@@ -82,3 +82,12 @@
 .link:hover {
   color: var(--hover-color);
 }
+
+@media only screen and (min-width: 768px) {
+  .main, .header, .footer {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
