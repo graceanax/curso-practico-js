@@ -1,4 +1,5 @@
 const resultTagCuadrado = document.getElementById("ResultCuadrado");
+const resultTagCirculo = document.getElementById("ResultCirculo");
 // perímetro cuadrado
 function perimetroCuadrado(lado) {
   return lado * 4;
@@ -41,4 +42,17 @@ function calcularAreaCuadrado () {
   const value = input.value;
   const area = areaCuadrado(value);
   resultTagCuadrado.innerHTML = area;
+}
+// Interactuando con HTML Cuadrado
+function calcularPerimetroCirculo() {
+  const input = document.getElementById("InputCirculo");
+  const value = input.value;
+  const perimetro = perimetroCirculo(value);
+  resultTagCirculo.innerHTML = perimetro.toFixed(2);
+}
+function calcularAreaCirculo() {
+  const input = document.getElementById("InputCirculo");
+  const value = input.value;
+  const area = areaCirculo(value);
+  resultTagCirculo.innerHTML = area.toFixed(2);
 }
