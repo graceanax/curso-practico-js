@@ -13,3 +13,9 @@
 - Segundo paso: implementar las formulas en JavaScript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JavaScript con HTML
+
+## Taller #3: promedio
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las formulas en JavaScript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JavaScript con HTML
